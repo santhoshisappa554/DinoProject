@@ -18,13 +18,13 @@ public class GameController : MonoBehaviour
         print("Welcome to Endless runner game");
         print("press space to jump and escape from Obstacles");
 
-        GameObject blocksPrefab = Instantiate(blocks[0]);
-        blocksPrefab.transform.position = this.transform.position;
+        //GameObject blocksPrefab = Instantiate(blocks[0]);
+        //blocksPrefab.transform.position = this.transform.position;
 
 
 
-        GameObject blocksPrefab2 = Instantiate(blocks[1]);
-        blocksPrefab2.transform.position = blocksPrefab.transform.position + new Vector3(5, 0, 0);
+        //GameObject blocksPrefab2 = Instantiate(blocks[1]);
+        //blocksPrefab2.transform.position = blocksPrefab.transform.position + new Vector3(5, 0, 0);
         // camOffset = new Vector3(0, 0, camOffsetZ);
     }
 
